@@ -8,3 +8,6 @@ return num + 1;
 
   // Only change code above this line
 }
+
+var diffValue = incrementer(fixedValue); // Should equal 5
+console.log(fixedValue); // Should print 4
