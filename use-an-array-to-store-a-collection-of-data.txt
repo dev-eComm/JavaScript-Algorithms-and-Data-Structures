@@ -1,0 +1,1 @@
+let yourArray = ["a one-dimensional array", 1, true, null, undefined]; // Change this line
