@@ -1,0 +1,18 @@
+//check whether a given integer is within 100 of 200 or 500.
+
+function testNumbers(x) {
+  return ((Math.abs(200 - x) <= 100) ||
+	 (Math.abs(500 - x) <= 100));
+}
+
+console.log(testNumbers(10));
+console.log(testNumbers(90));
+console.log(testNumbers(99));
+console.log(testNumbers(299));
+console.log(testNumbers(500));
+/* output
+false
+false
+false
+true
+true */
