@@ -1,0 +1,20 @@
+//compute the absolute difference between a specified number and 15. Returns triple their absolute difference if the specified number is greater than 15.
+
+function diffNum(n) {
+  if (n <= 15) {
+    return (15 - n);
+    }
+  else
+    {
+     return (n - 15) * 3;
+    }
+}
+
+console.log(diffNum(11));
+console.log(diffNum(15));
+console.log(diffNum(32));
+/* output
+4
+0
+51
+*/
