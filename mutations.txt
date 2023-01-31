@@ -1,0 +1,11 @@
+function mutation(arr) {
+  const mytest = arr[1].toLowerCase();
+  const mytarget = arr[0].toLowerCase();
+  for (let i = 0; i < mytest.length; i++) {
+    if (mytarget.indexOf(mytest[i]) < 0) return false;
+  }
+  return true;
+}
+
+mutation(["hello", "hey"]);
+// added comment 
